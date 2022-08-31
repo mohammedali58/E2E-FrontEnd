@@ -1,0 +1,59 @@
+.home .form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+.home .form h5 {
+  margin: 0;
+}
+
+button {
+  background-color: darkcyan;
+  color: white;
+  border: 0px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.home p {
+  margin: 3px 0;
+}
+
+.home .user-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+.home .value-container {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.home .label {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.home .value {
+  font-size: 14px;
+}
+
+.home .header {
+  width: 31%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
